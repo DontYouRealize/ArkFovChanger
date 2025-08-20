@@ -42,7 +42,7 @@ int main() {
     // user input type shi
     while (true) {
         float newFovValue = 0.0f;
-        std::cout << "\nEnter a new FOV value to set (e.g., 90.0): ";
+        std::cout << "\nEnter a new FOV value to set (Note: The highest in ark is 1.25): ";
         std::cin >> newFovValue;
 
         // Write the new fov value to the games memory
